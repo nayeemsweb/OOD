@@ -4,3 +4,4 @@ Object Oriented Design aka OOD. In this repo we have tried to implement some imp
 ## Contents
 
 * [Solid](/OOD/SOLID/)
+* [Prefer Composition over Inheritance](/OOD/Composition/)
