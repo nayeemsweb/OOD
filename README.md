@@ -3,5 +3,6 @@ Object Oriented Design aka OOD. In this repo we have tried to implement some imp
 
 ## Contents
 
-* [SOLID](/OOD/SOLID/)
-* [Prefer Composition over Inheritance](/OOD/Composition/)
+- [SOLID](/OOD/SOLID/)
+- [Prefer Composition over Inheritance](/OOD/Composition/)
+- [Tell, Don't Ask](/OOD/TellDontAsk/)
