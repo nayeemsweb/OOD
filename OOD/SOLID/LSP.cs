@@ -11,41 +11,42 @@ namespace SOLID
     }
 
     #region Rough
-    //public class Animal
+    //public class VehicleV2
     //{
-    //    public string Color { get; set; }
-    //    public virtual bool IsReptile { get; set; }
+    //    public string? Color { get; set; }
+    //    public virtual string? HelmetDesign { get; set; }
     //}
 
-    //class Tiger : Animal
+    //class MotorbikeV2 : VehicleV2
+    //{
+    //}
+
+    //class CarV2 : VehicleV2
     //{
     //    //Violets LSP
-    //    public override bool IsReptile => throw new NotImplementedException();
+    //    public override string? HelmetDesign => throw new NotImplementedException();
     //}
 
-    //class Crocodile : Animal
-    //{        
-    //}
     #endregion
 
     #region Implementation
-    public abstract class Animal
+    public abstract class VehicleV2
     {
-        public string Color { get; set; }
+        public string? Color { get; set; }
     }
 
-    interface IReptile
+    public interface IHelmet
     {
-        bool IsReptile { get; set; }
+        string HelmetDesign { get; set; }
     }
 
-    class Tiger : Animal
+    class CarV2 : VehicleV2
     {
     }
 
-    class Crocodile : Animal, IReptile
+    class MotorbikeV2 : VehicleV2, IHelmet
     {
-        public bool IsReptile { get; set; }
+        public string? HelmetDesign { get; set; }
     }
     #endregion
 }
